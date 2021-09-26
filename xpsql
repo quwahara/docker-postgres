@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# DB へ CLI で接続
+docker run -it --rm --network docker-postgres_default postgres:13.4 psql -h postgres_db -d db_1 -U user

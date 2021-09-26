@@ -1,4 +1,6 @@
 #!/bin/bash
 
-# DB へ CLI で接続
+# This software is released under the MIT License, see LICENSE
+
+# Connect to DB by CLI
 docker run -it --rm --network docker-postgres_default postgres:13.4 psql -h postgres_db -d db_1 -U user
